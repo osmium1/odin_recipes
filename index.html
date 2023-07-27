@@ -1,22 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
+        <meta charset="UTF-8"/>
         <title>Odin Recipes</title>
+        <link rel="stylesheet" href="styles.css"/>
     </head>
     <body>
         <!-- title bar -->
-        <h1>Odin Recipes</h1>
-        <hr>
-        <img src="images/odin_statue.jpg" alt="Image of an Old Viking statue of the god Odin">
-        <!--Index of recipe pages-->
-        <h2>Favorites of the one-eyed All-Father!</h2>
-        <ul>
-            <li><a href="pages/honey_mead.html">The Honey Mead</a></li>
-            <li><a href="pages/hearty_stew.html">The Hearty Stew</a></li>
-            <li><a href="pages/flatbread.html">Viking Flatbread</a></li>
-            <li><a href="pages/herring.html">Pickled Herring</a></li>
-        </ul>
-        <hr>
+        <div class="titlebar roundedBox">
+            <p>Odin Recipes</p>
+        </div>
+            <img id="homeImage" class="roundedBox" src="images/painting.jpg" alt="Image of an Old Viking statue of the god Odin">
+            <div class="lists roundedBox">
+                <!--Index of recipe pages-->
+                <div class="subheading">Favorites of the one-eyed All-Father!</div>
+                <br>
+                <br>
+                <p>Step into a world of legendary flavors as we uncover 
+                    the culinary delights cherished by the mighty Odin,<br> 
+                    the All-Father and ruler of Asgard. From his grand table to humble feasts, 
+                    these treasured recipes offer a taste of ancient times. </p>
+                <br>
+                <ul>
+                    <li><a href="pages/honey_mead.html">The Honey Mead</a></li>
+                    <li><a href="pages/hearty_stew.html">The Hearty Stew</a></li>
+                    <li><a href="pages/flatbread.html">Viking Flatbread</a></li>
+                    <li><a href="pages/herring.html">Pickled Herring</a></li>
+                </ul>
+            </div>
+            <div class="roundedBox lists" id="imageInfo">
+                <h4>Valhalla (1905) by Emil Doepler</h4>
+                <p>Einherjar are served by Valkyries in Valhöll while Odin sits upon his throne, flanked by one of his wolves.</p>
+            </div>
+        
     </body>
 </html>

@@ -1,0 +1,50 @@
+.titlebar {
+    text-align: center;
+    padding:20px;
+    font-size: 64px;
+    color:rgb(160, 10, 10);
+}
+
+.roundedBox {
+    background-color: #dabd7c;
+    margin:5px;
+    border-style: dotted;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 10px;
+    font-family: Geneva, Tahoma, sans-serif
+}
+
+* {
+    margin:0;
+}
+
+#homeImage {
+    width:60%;
+    margin:0 5px 5px 0;
+    height: auto;
+    float:right;
+}
+
+#imageInfo {
+    padding-top:10px;
+    height:fit-content;
+    font-size: small;
+}
+
+.lists {
+    font-size: 30px;
+    font-weight: 300;
+    float:left;
+    margin:0 0 5px 5px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    width: 37.5%;
+    height:500px;
+}
+
+.subheading {
+    font-size: 40px;
+    font-weight: 510;
+}
