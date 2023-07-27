@@ -17,10 +17,11 @@
 
 * {
     margin:0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-#homeImage {
-    width:60%;
+#mainImage {
+    width:62%;
     margin:0 5px 5px 0;
     height: auto;
     float:right;
@@ -33,15 +34,16 @@
 }
 
 .lists {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 300;
     float:left;
     margin:0 0 5px 5px;
+    padding-right: 20px;
     padding-top: 20px;
     padding-left: 20px;
-    padding-bottom: 10px;
-    width: 37.5%;
-    height:500px;
+    padding-bottom: 20px;
+    width: 34.5%;
+    height:fit-content;
 }
 
 .subheading {
