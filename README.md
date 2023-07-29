@@ -12,6 +12,7 @@ A basic barebones HTML + CSS project that makes use of:
 - Paragraph tags
 - Standard HTML boilerplate tags
 - Basic CSS Styling
+- custom fonts from google fonts api
 -----
 <sup><sub>recipes shamelessly stolen from [here](https://diynatural.com/homemade-mead-honey-mead-recipe/) and [here](https://www.vikingwarriorshirts.com/blogs/news/10-delicious-authentic-viking-recipes)</sub></sup>
 
