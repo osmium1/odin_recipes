@@ -12,12 +12,11 @@
     border-color: black;
     border-width: 2px;
     border-radius: 10px;
-    font-family: Geneva, Tahoma, sans-serif
 }
 
 * {
     margin:0;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Ysabeau SC', sans-serif;
 }
 
 #mainImage {
@@ -25,6 +24,7 @@
     margin:0 5px 5px 0;
     height: auto;
     float:right;
+    display:block;
 }
 
 #imageInfo {
@@ -34,7 +34,7 @@
 }
 
 .lists {
-    font-size: 25px;
+    font-size: 24px;
     font-weight: 300;
     float:left;
     margin:0 0 5px 5px;
@@ -47,6 +47,11 @@
 }
 
 .subheading {
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 510;
+    padding-bottom: 20px;
+}
+
+.lists p, li {
+    font-family: 'Quicksand', sans-serif;
 }
